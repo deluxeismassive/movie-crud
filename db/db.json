@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Godfather",
+      "director": "",
+      "year": "",
+      "rating": "5",
+      "poster": ""
+    },
+    {
+      "id": 2,
+      "name": "Terminator",
+      "director": "Fritz",
+      "year": "",
+      "rating": "5",
+      "poster": ""
+    },
+    {
+      "id": 3,
+      "name": "Predator",
+      "director": "Fritz",
+      "year": "",
+      "rating": "5",
+      "poster": ""
+    },
+    {
+      "id": 4,
+      "name": "Alien",
+      "director": "Fritz",
+      "year": "",
+      "rating": "5",
+      "poster": ""
+    }
+  ]
+}
