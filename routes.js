@@ -5,7 +5,7 @@ const db = low("db/data.json", {
   storage: fileAsync
 
 router.get('/', function (req, res) {
-  res.send(db.get())
+
 })
 
 router.delete('/:id', function (req, res) {

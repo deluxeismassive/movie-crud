@@ -1,4 +1,1 @@
-$.get("/routes")
-  .then((movies) => {
-    
-  })
+
