@@ -7,7 +7,7 @@ const path = require('path')
 
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(bodyParser.json())
-app.use('/routes', routes)
+app.use('/movies', routes)
 
 
 app.listen(port)
