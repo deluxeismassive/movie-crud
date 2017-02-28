@@ -1,7 +1,11 @@
 const router = require('express').Router()
+const low = require('lowdb')
+const fileAsync = require("lowdb/lib/storages/file-async")
+const db = low("db/data.json", {
+  storage: fileAsync
 
 router.get('/', function (req, res) {
-  res.send('Hello')
+  res.send(db.get())
 })
 
 router.delete('/:id', function (req, res) {
