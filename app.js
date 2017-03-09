@@ -5,9 +5,11 @@ const port = process.env.PORT || 8080
 const routes = require('./routes.js')
 const path = require('path')
 
-app.use(express.static(path.join(__dirname, 'public')))
+
 app.use(bodyParser.json())
-app.use('/movies', routes)
+app.use(bodyParser.urlencoded({ extended: true}))
+app.use('/', routes)
+app.use(express.static(path.join(__dirname, 'public')))
 
 
 app.listen(port)

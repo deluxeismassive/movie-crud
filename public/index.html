@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Movie CRUDL</title>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
-      <h1>Movie Guide</h1>
+      <h1 class="header">Movie Guide</h1>
     </header>
-    <table>
-      <tr>
-        <th>Movie</th>
-        <th>Year</th>
-        <th>Director</th>
-      </tr>
-    </table>
-    <script src="main.js"></script>
+    <div class="container">
+      <table id="movieTable">
+        <tr class="tableRow">
+          <th class="tableHead">Movie</th>
+          <th class="tableHead">Year</th>
+          <th class="tableHead">Director</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>

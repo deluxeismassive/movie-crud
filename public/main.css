@@ -1,0 +1,30 @@
+.header {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background: tomato;
+  font-size: 20pt;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.tableRow {
+ border-bottom: 2px solid grey;
+ margin-bottom: 10px;
+}
+
+.tableHead {
+ font-size: 20pt;
+ color: grey;
+}
+
+.tableData {
+  font-size: 14pt;
+  color: grey;
+  width: 250px;
+  text-align: center;
+}

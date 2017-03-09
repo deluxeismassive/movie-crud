@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie CRUDL</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Movie Guide</h1>
+    </header>
+    <form class="eFormNew" action="/movies" method="POST" name="editForm">
+      Movie
+      <input id="eName" type="text" name="name" value="">
+      Director
+      <input id="eDirector" type="text" name="director" value="">
+      Year
+      <input id="eYear" type="text" name="year" value="">
+      Rating
+      <input id="eRating"type="text" name="rating" value="">
+      Poster URL
+      <input id="eUrl" type="text" name="url" value="">
+      <img src="" alt="" id="poster">
+      <button type="ebutton" name="button" class="postButton">POST</button>
+    </form>
+    <script src="../new.js"></script>
+  </body>
+</html>
